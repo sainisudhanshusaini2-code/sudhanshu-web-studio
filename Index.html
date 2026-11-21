@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    background: #101827;
+    color: white;
+    font-family: Arial;
+}
+
+nav {
+    background: #1e293b;
+    padding: 20px;
+    text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+nav a {
+    color: #00e5ff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.home, section {
+    text-align: center;
+    padding: 50px 15px;
+}
+
+h1 {
+    color: #00e5ff;
+}
+
+button {
+    background: #00e5ff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+}.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+}
+.whatsapp {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 20px;
+}
+  .whatsapp {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+  }
+  @media (max-width: 600px) {
+    .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+        font-size: 16px;
+    }
+    /* Professional Footer */
+footer {
+    background: #111827;
+    color: #00ffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+    border-top: 2px solid #00ffff;
+}
+
+/* Card Hover Effect */
+.card {
+    transition: 0.3s;
+}
+.home {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #101827, #003344);
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.home h1 {
+    font-size: 38px;
+    color: #00ffff;
+}
+
+.home p {
+    font-size: 18px;
+    color: white;
+}
+.start-btn {
+    display: inline-block;
+    background: #00ffff;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.home button {
+    background: #00ffff;
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 17px;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 255, 255, 0.3);
+}
+    .home {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card {
+    border: 1px solid #00ffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px;
+    background: #111827;
+}
+
+.card:hover {
+    border-color: white;
+    box-shadow: 0 0 15px #00ffff;
+}
+.card {
+    transition: transform 0.3s ease;
+}
+@media (max-width: 600px) {
+    .home {
+        padding: 50px 15px;
+        margin: 10px;
+    }
+
+    .home h1 {
+        font-size: 28px;
+    }
+
+    .home p {
+        font-size: 16px;
+    }
+.brand span {
+    background: #00ffff;
+    color: #000;
+    padding: 6px 10px;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+    .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+.card:hover {
+    transform: scale(1.05);
+}button, .start-btn {
+    box-shadow: 0 0 10px #00ffff;
+    transition: 0.3s;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.home h1 {
+    text-shadow: 0 0 10px #00ffff;
+    animation: glow 2s infinite alternate;
+}
+.light-mode {
+    background: #f5f5f5;
+    color: #111;
+}
+
+.light-mode .card {
+    background: white;
+    color: black;
+    border: 1px solid #ddd;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+}
+
+nav a {
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    color: white;
+}
+.light-mode p {
+    color: #333;
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #00ffff;
+    }
+    to {
+        text-shadow: 0 0 20px #00ffff;
+    }
+      }
+.card {
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+}
+button:hover, .start-btn:hover {
+    box-shadow: 0 0 25px #00ffff;
+    transform: scale(1.05);
+  }
+    .brand {
+    color: #00ffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    }
+    .card {
+    box-sizing: border-box;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    p {
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    letter-spacing: 0.5px;
+}
+</style>
+</head>
+</style>
+</head>
+
+<body>
+<button onclick="toggleMode()" id="modeBtn">🌙 Dark / Light</button>
+<nav>
+  <span>SW</span> Sudhanshu Web Studio
+    
+  </>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="home" id="home">
+ <h1>Welcome To Sudhanshu Web Studio</h1>
+<p>I am learning Website Development.</p>                               
+  <a href="#services" class="start-btn">Get Started</a>
+</div>
+
+<section id="about">
+  <img src="./Profile.jpg.jpg" width="200" alt="My Photo">
+<h1>About Me</h1>
+<p>I am a passionate web developer. I create modern and professional websites for businesses.</p>
+  <img src="jpg.jpg" width="200">
+</section>
+
+<section id="contact">
+<h1>Contact Me</h1>
+<p>Contact details coming soon.</p>
+</section>
+<section id="services">
+<h1>My Services</h1>
+
+<div class="cards">
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" width="100%">
+<h2>Web Design</h2>
+<p>I create beautiful websites.</p>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" width="100%">
+<h2>Website Development</h2>
+<p>I build responsive websites.</p>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8" width="100%">
+<h2>Graphic Design</h2>
+<p>I create creative designs.</p>
+</div>
+
+</div>
+</section>
+  <section id="projects">
+    <h1>My Projects</h1>
+
+    <div class="card">
+        <h2>Project 1</h2>
+        <p>My First Website</p>
+    </div>
+
+    <div class="card">
+        <h2>Project 2</h2>
+        <p>Business Website</p>
+    </div>
+
+    <div class="card">
+        <h2>Project 3</h2>
+        <p>Portfolio Website</p>
+    </div>
+  </section>
+<a href="https://wa.me/919549951954" target="_blank" class="whatsapp">Contact Me on WhatsApp</a>
+  <section id="contact">
+    <h1>Contact Me</h1>
+    <p>Email: yourname@gmail.com</p>
+    <p>Available for Website Projects</p>
+  </section>
+</>
+  <footer>
+    <p>© 2026 My Website. All Rights Reserved.</p>
+    <p>Created by Me ❤️</p>
+  </footer>
+</body>
+</html>
